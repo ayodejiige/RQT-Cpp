@@ -1,0 +1,20 @@
+<library path="lib/librqt_mypkg">
+   <class name="rqt_mypkg/MyPlugin" type="rqt_mypkg::MyPlugin" base_class_type="rqt_gui_cpp::Plugin">
+     <description>
+       An example C++ GUI plugin to create a great user interface.
+     </description>
+    <qtgui>
+       <!-- optional grouping...
+   8       <group>
+   9         <label>Group</label>
+  10       </group>
+  11       <group>
+  12         <label>Subgroup</label>
+  13       </group>
+  14       -->
+  15       <label>My first C++ Plugin</label>
+  16       <icon type="theme">system-help</icon>
+  17       <statustip>Great user interface to provide real value.</statustip>
+  18     </qtgui>
+  19   </class>
+  20 </library>
